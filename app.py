@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Load the trained model
-model = joblib.load("thorocare_model.pkl")
+model = joblib.load("model.pkl")
 
 # Load encoders and scaler
 encoders = joblib.load("label_encoders.pkl")
